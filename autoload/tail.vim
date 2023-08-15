@@ -185,6 +185,7 @@ else
 	 if l:update_cursor
 	    call tail#SetCursor()
 	 endif
+	 call tail#SetCursor()
       else
 	 try
 	    " jump to the preview window to reload
